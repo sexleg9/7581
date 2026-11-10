@@ -10,11 +10,11 @@
 # See /LICENSE for more information.
 #
 
-# Modify default IP
+# Modify default IP取消注释后，会把路由器默认管理 IP 从 192.168.1.1 改为 192.168.50.5
 #sed -i 's/192.168.1.1/192.168.50.5/g' package/base-files/files/bin/config_generate
 
-# Modify default theme
+# Modify default theme取消注释后，把默认 LuCI 主题从 bootstrap 换成更美观的 argon。注意：需确保 argon 主题已在 feeds 中（可能还需在 .config 中选中）。
 #sed -i 's/luci-theme-bootstrap/luci-theme-argon/g' feeds/luci/collections/luci/Makefile
 
-# Modify hostname
+# Modify hostname修改主机名
 #sed -i 's/OpenWrt/P3TERX-Router/g' package/base-files/files/bin/config_generate
