@@ -10,9 +10,9 @@
 # See /LICENSE for more information.
 #
 
-# Uncomment a feed source
+# Uncomment a feed source注释一个已有的 feed 源
 #sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 
-# Add a feed source
+# Add a feed source添加 helloworld 软件源（当前生效）
 echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
 #echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
